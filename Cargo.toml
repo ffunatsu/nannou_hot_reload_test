@@ -1,0 +1,23 @@
+[workspace]
+resolver = "2"
+members = ["lib", "nannou_dynamic"]
+
+
+[package]
+name = "nannou_hot_reload_test"
+version = "0.1.0"
+authors = ["Fumiya Funatsu <funatsu.fumiya@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+hot-lib-reloader = "^0.8.2"
+lib = { path = "./lib" }
+bevy = { version = "0.19", features = ["dynamic_linking"] }
+nannou = { package = "nannou_dynamic", path = "./nannou_dynamic" }
+
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3

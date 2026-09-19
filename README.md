@@ -1,6 +1,3 @@
-_This is a template for [cargo-generate](https://cargo-generate.github.io/cargo-generate/)._
-_Use with `cargo generate rksm/nannou-hot-reload`._
-
 # nannou_hot_reload_test
 
 A workflow for quick feedback with [nannou](https://nannou.cc/)! For more details about Rust hot code reload see https://github.com/rksm/hot-lib-reloader-rs.

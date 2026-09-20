@@ -9,7 +9,7 @@ A workflow for quick feedback with [nannou](https://nannou.cc/)! For more detail
 For development use two terminals to run the binary and (re-)build the lib:
 
 ```shell
-$ cargo watch -i lib -x 'run --features reload'
+$ cargo watch -i lib -x 'run'
 $ cargo watch -w lib -x 'build -p lib'
 ```
 

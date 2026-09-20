@@ -29,5 +29,5 @@ pub fn update(app: &App, model: &mut Model) {
 #[unsafe(no_mangle)]
 pub fn view(app: &App, model: &Model) {
     let draw = app.draw();
-    draw.background().color(WHITE);
+    draw.background().color(BLACK);
 }

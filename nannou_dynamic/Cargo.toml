@@ -8,4 +8,5 @@ crate-type = ["dylib"]
 
 [dependencies]
 # nannou = "0.20"
+bevy = { version = "0.19", features = ["dynamic_linking"] }
 nannou = { version = "0.20", git = "https://github.com/ffunatsu/nannou", branch="main"}
